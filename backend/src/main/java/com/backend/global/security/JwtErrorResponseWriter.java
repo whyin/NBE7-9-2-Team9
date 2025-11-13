@@ -1,6 +1,6 @@
 package com.backend.global.security;
 
-import com.backend.global.reponse.ErrorCode;
+import com.backend.global.response.ErrorCode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

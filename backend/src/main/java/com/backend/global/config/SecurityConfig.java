@@ -1,13 +1,14 @@
 package com.backend.global.config;
 
 import com.backend.global.security.JwtAuthenticationFilter;
-import com.backend.global.security.hadler.JwtAccessDeniedHandler;
-import com.backend.global.security.hadler.JwtAuthenticationEntryPoint;
+import com.backend.global.security.handler.JwtAccessDeniedHandler;
+import com.backend.global.security.handler.JwtAuthenticationEntryPoint;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
@@ -46,9 +47,9 @@ public class SecurityConfig {
                 }))
 
                 // 1. 기본 보안 설정 비활성화
-                .csrf(csrf -> csrf.disable())
-                .formLogin(form -> form.disable())
-                .httpBasic(basic -> basic.disable())
+                .csrf(AbstractHttpConfigurer::disable)
+                .formLogin(AbstractHttpConfigurer::disable)
+                .httpBasic(AbstractHttpConfigurer::disable)
 
                 // 2. 세션 관리 정책 - 세션 생성, 사용 X
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

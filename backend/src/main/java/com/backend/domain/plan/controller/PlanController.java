@@ -1,16 +1,14 @@
 package com.backend.domain.plan.controller;
 
 import com.backend.domain.auth.service.AuthService;
-import com.backend.domain.bookmark.service.BookmarkService;
 import com.backend.domain.plan.dto.*;
 import com.backend.domain.plan.entity.Plan;
 import com.backend.domain.plan.service.PlanMemberService;
 import com.backend.domain.plan.service.PlanService;
-import com.backend.global.reponse.ApiResponse;
+import com.backend.global.response.ApiResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;

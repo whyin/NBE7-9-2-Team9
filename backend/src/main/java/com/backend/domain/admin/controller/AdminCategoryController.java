@@ -2,7 +2,7 @@ package com.backend.domain.admin.controller;
 
 import com.backend.domain.admin.service.AdminCategoryService;
 import com.backend.domain.category.dto.ResponseCategoryDto;
-import com.backend.global.reponse.ApiResponse;
+import com.backend.global.response.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.backend.global.reponse;
+package com.backend.global.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

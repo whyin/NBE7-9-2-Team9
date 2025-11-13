@@ -1,13 +1,12 @@
 package com.backend.domain.member.service;
 
-import com.backend.domain.member.dto.request.MemberLoginRequest;
 import com.backend.domain.member.dto.request.MemberSignupRequest;
 import com.backend.domain.member.dto.request.MemberUpdateRequest;
 import com.backend.domain.member.dto.response.MemberResponse;
 import com.backend.domain.member.entity.Member;
 import com.backend.domain.member.repository.MemberRepository;
 import com.backend.global.exception.BusinessException;
-import com.backend.global.reponse.ErrorCode;
+import com.backend.global.response.ErrorCode;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;

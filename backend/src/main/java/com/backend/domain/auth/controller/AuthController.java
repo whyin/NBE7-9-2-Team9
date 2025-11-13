@@ -4,7 +4,7 @@ import com.backend.domain.auth.dto.reponse.TokenResponse;
 import com.backend.domain.auth.service.AuthService;
 import com.backend.domain.auth.util.CookieManager;
 import com.backend.domain.member.dto.request.MemberLoginRequest;
-import com.backend.global.reponse.ApiResponse;
+import com.backend.global.response.ApiResponse;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

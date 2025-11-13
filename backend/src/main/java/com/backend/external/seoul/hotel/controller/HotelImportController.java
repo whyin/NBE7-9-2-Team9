@@ -1,7 +1,7 @@
 package com.backend.external.seoul.hotel.controller;
 
 import com.backend.external.seoul.hotel.service.HotelImportService;
-import com.backend.global.reponse.ApiResponse;
+import com.backend.global.response.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

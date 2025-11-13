@@ -7,14 +7,12 @@ import com.backend.domain.place.dto.ResponsePlaceDto;
 import com.backend.domain.place.entity.Place;
 import com.backend.domain.place.repository.PlaceRepository;
 import com.backend.global.exception.BusinessException;
-import com.backend.global.reponse.ErrorCode;
+import com.backend.global.response.ErrorCode;
 import jakarta.transaction.Transactional;
-import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor

@@ -2,14 +2,11 @@ package com.backend.domain.place.controller;
 
 import com.backend.domain.place.dto.RequestPlaceDto;
 import com.backend.domain.place.dto.ResponsePlaceDto;
-import com.backend.domain.place.entity.Place;
 import com.backend.domain.place.service.PlaceService;
-import com.backend.global.reponse.ApiResponse;
-import com.backend.global.reponse.ResponseCode;
+import com.backend.global.response.ApiResponse;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 

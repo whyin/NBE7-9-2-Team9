@@ -1,7 +1,7 @@
 package com.backend.external.seoul.modelrestaurant.controller;
 
 import com.backend.external.seoul.modelrestaurant.service.ModelRestaurantImportService;
-import com.backend.global.reponse.ApiResponse;
+import com.backend.global.response.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

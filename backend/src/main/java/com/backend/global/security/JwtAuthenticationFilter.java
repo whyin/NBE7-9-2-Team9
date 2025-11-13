@@ -2,8 +2,7 @@ package com.backend.global.security;
 
 import com.backend.global.jwt.JwtTokenProvider;
 import com.backend.global.jwt.TokenStatus;
-import com.backend.global.reponse.ErrorCode;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.backend.global.response.ErrorCode;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -18,7 +17,6 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 @Component
 @RequiredArgsConstructor

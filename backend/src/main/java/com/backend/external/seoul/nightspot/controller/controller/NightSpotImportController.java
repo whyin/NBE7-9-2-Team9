@@ -2,8 +2,8 @@
 package com.backend.external.seoul.nightspot.controller.controller;
 
 import com.backend.external.seoul.nightspot.service.service.NightSpotImportService;
-import com.backend.global.reponse.ApiResponse;
-import com.backend.global.reponse.ResponseCode;
+import com.backend.global.response.ApiResponse;
+import com.backend.global.response.ResponseCode;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

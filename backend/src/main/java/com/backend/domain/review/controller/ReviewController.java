@@ -2,17 +2,13 @@ package com.backend.domain.review.controller;
 
 
 import com.backend.domain.auth.service.AuthService;
-import com.backend.domain.category.entity.Category;
-import com.backend.domain.place.dto.ResponsePlaceDto;
-import com.backend.domain.place.entity.Place;
 import com.backend.domain.review.dto.RecommendResponse;
 import com.backend.domain.review.dto.ReviewRequestDto;
 import com.backend.domain.review.dto.ReviewResponseDto;
 import com.backend.domain.review.service.ReviewService;
-import com.backend.global.reponse.ApiResponse;
+import com.backend.global.response.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

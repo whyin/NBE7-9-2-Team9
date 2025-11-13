@@ -11,7 +11,7 @@ import com.backend.domain.plan.entity.PlanMember;
 import com.backend.domain.plan.repository.PlanMemberRepository;
 import com.backend.domain.plan.repository.PlanRepository;
 import com.backend.global.exception.BusinessException;
-import com.backend.global.reponse.ErrorCode;
+import com.backend.global.response.ErrorCode;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

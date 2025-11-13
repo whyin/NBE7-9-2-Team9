@@ -1,7 +1,6 @@
-package com.backend.global.security.hadler;
+package com.backend.global.security.handler;
 
-import com.backend.global.exception.BusinessException;
-import com.backend.global.reponse.ErrorCode;
+import com.backend.global.response.ErrorCode;
 import com.backend.global.security.JwtErrorResponseWriter;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

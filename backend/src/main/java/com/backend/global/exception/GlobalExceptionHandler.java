@@ -1,10 +1,9 @@
 package com.backend.global.exception;
 
-import com.backend.global.reponse.ApiResponse;
-import com.backend.global.reponse.ErrorCode;
-import com.backend.global.reponse.ResponseCode;
+import com.backend.global.response.ApiResponse;
+import com.backend.global.response.ErrorCode;
+import com.backend.global.response.ResponseCode;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

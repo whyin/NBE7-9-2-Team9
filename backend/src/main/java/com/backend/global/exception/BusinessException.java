@@ -1,6 +1,6 @@
 package com.backend.global.exception;
 
-import com.backend.global.reponse.ErrorCode;
+import com.backend.global.response.ErrorCode;
 import lombok.Getter;
 
 @Getter

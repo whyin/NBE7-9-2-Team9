@@ -1,7 +1,6 @@
 package com.backend.domain.plan.service;
 
 import com.backend.domain.member.entity.Member;
-import com.backend.domain.member.repository.MemberRepository;
 import com.backend.domain.member.service.MemberService;
 import com.backend.domain.plan.dto.PlanMemberMyResponseBody;
 import com.backend.domain.plan.dto.PlanMemberAddRequestBody;
@@ -10,12 +9,10 @@ import com.backend.domain.plan.dto.PlanMemberResponseBody;
 import com.backend.domain.plan.entity.Plan;
 import com.backend.domain.plan.entity.PlanMember;
 import com.backend.domain.plan.repository.PlanMemberRepository;
-import com.backend.domain.plan.repository.PlanRepository;
 import com.backend.global.exception.BusinessException;
-import com.backend.global.reponse.ErrorCode;
+import com.backend.global.response.ErrorCode;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

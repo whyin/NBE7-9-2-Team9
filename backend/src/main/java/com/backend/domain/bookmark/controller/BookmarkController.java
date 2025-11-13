@@ -4,7 +4,7 @@ import com.backend.domain.auth.service.AuthService;
 import com.backend.domain.bookmark.dto.BookmarkRequestDto;
 import com.backend.domain.bookmark.dto.BookmarkResponseDto;
 import com.backend.domain.bookmark.service.BookmarkService;
-import com.backend.global.reponse.ApiResponse;
+import com.backend.global.response.ApiResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
